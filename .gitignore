@@ -1,0 +1,11 @@
+# ignore everything in the root except the "custom theme"
+/public/*
+
+# ignore node dependency directories
+node_modules/
+vendor/
+
+# ignore log files and databases
+*.log
+*.sql
+*.sqlite

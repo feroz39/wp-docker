@@ -1,0 +1,2 @@
+# docker-compose run --rm wp-cli wp migratedb setting update license 93a20de4-dcc4-40d3-80fe-fd3659842105 --user=1
+# docker-compose run --rm wp-cli wp migratedb pull https://zldheadless.wpengine.com +ipqgbLUrBnojoqyfc9SIjympg/V3ZVsUAb4bxQi --find="//zldheadless.wpengine.com" --replace="//localhost:8080" --skip-replace-guids --backup=prefix --theme-files=all --plugin-files=all
